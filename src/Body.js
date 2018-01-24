@@ -7,9 +7,8 @@ import News from './components/News.js';
 var bodyStyle = {
 	color: 'white',
 	backgroundColor: 'black',
-	height: '1000px',
+	height: 'auto',
 	position: 'relative',
-	maxHeight: '1000px',
 	width: '100%',
 	zIndex: '4'
 }

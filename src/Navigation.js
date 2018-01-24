@@ -21,7 +21,7 @@ class Navigation extends Component {
       <Link to='/'>News</Link>
       <Link to='/live'>Live</Link>
       <Link to='/discography'>Discography</Link>
-      <a href='https://krypts.bigcartel.com' target='_blank'>Merch</a>
+      <a href='https://krypts.bigcartel.com' target='_blank' rel="noopener noreferrer">Merch</a>
     </div>  
     );	
   }

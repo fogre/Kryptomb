@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
+/*
 var liveStyle = {
 	color: 'yellow'
-}
+}*/
 
 //asdasdasd
 class Live extends Component {
