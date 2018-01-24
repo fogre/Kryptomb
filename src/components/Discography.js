@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+/*
 var discographyStyle = {
 	color: 'yellow'
-}
+}*/
 
 //asdasdasd
 class Discography extends Component {
