@@ -1,3 +1,5 @@
+/*A conf file for facebook graph api querys*/
+
 //The graph api entry point
 const graphBaseUrl = 'https://graph.facebook.com/';
 //Name of the site where to look for info

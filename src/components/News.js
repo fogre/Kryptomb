@@ -1,20 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FBposts from '../postsJSX';
 import Parser from 'html-react-parser';
 
-/*var newsStyle = {
-	color: 'yellow'
-}*/
-
-/*
-1. Erillinen scripti
-2. Scripti hakee 5 viimeisintä postausta ja päivittää tekstitiedoston
-3. Scripti pushaa githubiin
-4. Staattínen websivu hakee tekstitiedostsosta filut
-*/
-
-//asdasdasd
 class News extends Component {
 
   constructor() {
