@@ -1,24 +1,15 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Discography from './components/Discography.js';
-import Live from './components/Live.js';
-import News from './components/News.js';
 
-var bodyStyle = {
-	color: 'white',
-	backgroundColor: 'black',
-	height: 'auto',
-	position: 'relative',
-	width: '100%',
-	zIndex: '4'
-}
+import Discography from './bodyComponents/Discography.js';
+import Live from './bodyComponents/Live.js';
+import News from './bodyComponents/News.js';
 
-//asdasdasd
 class Body extends Component {
 
   render() {
     return(	
-      <main style={bodyStyle}>
+      <main>
       	<Switch>
 	      <Route exact path='/' component={News}/>
 	      <Route exact path='/live' component={Live}/>

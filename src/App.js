@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+
 import Background from './Background.js';
 import Body from './Body.js';
 import Header from './Header';
 import Navigation from './Navigation';
 
+import './css/Body.css';
+
 var bodyHeaderStyle = {
   margin: 'auto',
-  maxHeight: '1000px',
-  maxWidth: '1000px',
+  maxWidth: '700px'
 }
 
 class App extends Component {
@@ -15,10 +17,12 @@ class App extends Component {
     return (
       <div className="App">
         <Background/>
-        <div className="BodyHeader" style={bodyHeaderStyle}>
+        <div style={bodyHeaderStyle}>
           <Header/>
           <Navigation/>
-          <Body/>
+          <div className="BodyFrame">
+           <Body/>
+          </div> 
         </div>  
       </div>
     );

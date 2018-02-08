@@ -4,12 +4,9 @@ import BackgroundImage from './images/kansipienempi.png'
 var backgroundStyle = {
   width: '100%',
   height: '100%',
-  left: '0',
-  top: '0',
-  overflow: 'hidden',
   position: 'fixed',
   backgroundImage: `url(${BackgroundImage})`,
-  zIndex: '1'
+  zIndex: '0'
 };
 
 

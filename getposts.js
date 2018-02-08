@@ -4,15 +4,14 @@
 
 const axios = require('./node_modules/axios/index.js');
 const conf = require('./FBconf.local.js');
-const testData = require('./src/posts.json');
 
 function checkPostType(postData, ind) {
   return new Promise(resolve => {
-	if( postData.attachments.data[0].type === 'event' ) {
-	  resolve(getEventCover(postData, ind));
-	} else {
-	  resolve(writePost(postData, ind));
-	}
+	  if( postData.attachments.data[0].type === 'event' ) {
+	    resolve(getEventCover(postData, ind));
+	  } else {
+	    resolve(writePost(postData, ind));
+	  }
   });
 }
 
@@ -22,10 +21,10 @@ function createPostString(createdTime, message, imageUrl, eventUrl, index){
   <p>${message}</p>
 `
   if( imageUrl ) {
-	baseString+=` <img src=${imageUrl} alt='post image'/>
+	  baseString+=` <img src=${imageUrl} alt='post image' className='BodyNewsImage'/>
 ` }
   if( eventUrl ) {
-	baseString+=` <br><a href=${eventUrl} target='_blank' rel="noopener noreferrer">Link</a>
+	  baseString+=` <br><a href=${eventUrl} target='_blank' rel="noopener noreferrer">Link</a>
 ` }
   return baseString + `</div>
 `
@@ -33,15 +32,15 @@ function createPostString(createdTime, message, imageUrl, eventUrl, index){
 
 function getEventCover(postData, index) {
   return new Promise(resolve => {
-	const eventId = postData.attachments.data[0].target.id;
-	axios.get(conf.getEventCover(eventId))
-	  .then(result => {
-	  	imageUrl = result.data.cover.source;
-	  	resolve(writePost(postData, index, imageUrl));
-	  })
-	  .catch(error => {
-	  	console.log(error);
-	  })
+	  const eventId = postData.attachments.data[0].target.id;
+	  axios.get(conf.getEventCover(eventId))
+	    .then(result => {
+	  	  imageUrl = result.data.cover.source;
+	  	  resolve(writePost(postData, index, imageUrl));
+	    })
+	    .catch(error => {
+	  	  console.log(error);
+	    })
   });  
 }
 
@@ -56,7 +55,7 @@ function iteratePosts(posts) {
   	});
     return current;
   })).then(results => {
-	writeToFile(jsxStr);
+	  writeToFile(jsxStr);
   });
 }
 
@@ -72,10 +71,10 @@ function writePost(postData, ind, imageURL = '') {
   let imageUrl = undefined;
   let eventUrl = undefined;
   if ( imageURL ) { 
-	imageUrl = imageURL;
-	eventUrl = postData.attachments.data[0].url;
+	  imageUrl = imageURL;
+	  eventUrl = postData.attachments.data[0].url;
   } else if ( postData.attachments.data[0].media.image.src ) { 
-	imageUrl = postData.attachments.data[0].media.image.src;
+	  imageUrl = postData.attachments.data[0].media.image.src;
   }
   return createPostString(postTime, message, imageUrl, eventUrl, ind);
 }
@@ -91,7 +90,7 @@ function writeToFile(stringy) {
 //get posts
 axios.get(conf.getQueryUrl())
   .then(result => {
-	iteratePosts(result.data.data);  	
+	  iteratePosts(result.data.data);  	
   })
   .catch(error => {
   	console.log(error);
