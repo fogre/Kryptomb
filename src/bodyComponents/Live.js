@@ -19,11 +19,11 @@ class Live extends Component {
 
     return(
       <div>	
-    	<h1>Live</h1>
-    	<h2>Coming</h2>
-    	{coming}
-    	<h2>Past</h2>
-    	{past}
+    	  <h1>Live</h1>
+    	  <h2>Coming</h2>
+    	  {coming}
+    	  <h2>Past</h2>
+    	  {past}
       </div>	
     );	
   }

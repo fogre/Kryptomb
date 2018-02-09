@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import BackgroundImage from './images/kansipienempi.png'
+import BackgroundImage from './images/CoverWebSquare.jpg'
 
 var backgroundStyle = {
   width: '100%',
   height: '100%',
   position: 'fixed',
   backgroundImage: `url(${BackgroundImage})`,
+  backgroundSize: 'cover',
   zIndex: '0'
 };
 
