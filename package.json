@@ -2,6 +2,7 @@
   "name": "kryptomb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kryptomb.netlify.com/",
   "dependencies": {
     "axios": "^0.17.1",
     "html-react-parser": "^0.4.1",
