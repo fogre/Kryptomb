@@ -7,7 +7,7 @@ class Background extends Component {
       <section className="Background"></section>
     );	
   }
-
+  
 }
 
 export default Background;

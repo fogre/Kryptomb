@@ -19,10 +19,10 @@ class Discography extends Component {
 		     return <li key={track}>{track}</li>
 	       })}
 	      </ol>
-	      <p>Released {album.date}</p>
 	    </div>
-  	   </div>
-  	  })
+	    <p>Released {album.date}</p>
+  	  </div>
+  	});
 
     return(	
       <div>	
