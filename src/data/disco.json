@@ -1,0 +1,50 @@
+{
+ "albums": [
+    {
+     "name": "Remnants of Expansion",
+     "tracklist": [
+        "Arrow of Entropy",
+        "The Withering Titan",
+        "Remnants of Expansion",
+        "Entrailed to the Breaking Wheel",
+        "Transfixed"
+     ],
+     "date": "28.10.2016",
+     "bandcamp": {
+        "src": "https://bandcamp.com/EmbeddedPlayer/album=1216252961/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/",
+        "href": "http://darkdescentrecords.bandcamp.com/album/remnants-of-expansion"
+     }    
+    },
+    {
+     "name": "Unending Degradation",
+     "tracklist": [
+        "Introeon: Perpetual Beyond",
+        "Blessed Entwinement",
+        "Open the Crypt",
+        "Dormancy of the Ancients",
+        "Inhale...",
+        "The Black Smoke",
+        "Day of Reckoning",
+        "Beneath the Archaic"
+     ],
+     "date": "19.3.2013",
+     "bandcamp": {
+        "src": "https://bandcamp.com/EmbeddedPlayer/album=1924457122/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/",
+        "href": "http://darkdescentrecords.bandcamp.com/album/unending-degradation"
+     }    
+    },
+    {
+     "name": "s/t 7\" EP",
+     "tracklist": [
+        "Descending of Tormenting Darkness",
+        "Putrefied into Nothingness"
+     ],
+     "date": "23.3.2011",
+     "bandcamp": {
+        "src": "https://bandcamp.com/EmbeddedPlayer/album=1363707454/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/",
+        "href": "http://krypts.bandcamp.com/album/s-t"
+     }    
+    }
+
+  ]
+}

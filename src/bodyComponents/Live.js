@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import liveDates from '../liveDates.json';
+import liveDates from '../data/liveDates.json';
 
 class Live extends Component {
 

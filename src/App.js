@@ -13,14 +13,15 @@ var bodyHeaderStyle = {
   maxWidth: '700px'
 }
 
-var noise =  {
+var noice =  {
   width: '100%',
   height: '100%',
   position: 'absolute',
   top: '0',
   left: '0',
   backgroundImage: `url(${BackgroundNoise})`,
-  textAlign: 'center'
+  textAlign: 'center',
+  pointerEvents: 'none'
 }
 
 class App extends Component {
@@ -33,7 +34,7 @@ class App extends Component {
           <Navigation/>
           <div className="BodyFrame">
            <Body/>
-           <div  style= {noice}/>
+           <section style={noice}/>
           </div>
         </div>  
       </div>
