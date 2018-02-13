@@ -1,17 +1,17 @@
 {
  "coming": [
     {
-     "date": "9.2.2018",
-     "event": "w/ Hooded Menace",
-     "location": "Kuudes Linja, Helsinki"
-    },
-    {
      "date": "30.3.2018",
      "event": "Immortal Rites Festival",
      "location": "Cco, Lyon"
     }
  ],
  "past": [
+   {
+     "date": "9.2.2018",
+     "event": "w/ Hooded Menace",
+     "location": "Kuudes Linja, Helsinki"
+   },
    {
     "date": "1.11.2017",
     "event": "w/ Blood Incantation, Spectral Voice & God Disease",

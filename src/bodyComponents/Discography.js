@@ -9,17 +9,15 @@ class Discography extends Component {
   	let albums = disco.albums.map(album => {
   	  return <div key={album.name}>
 	    <h3>{album.name}</h3>
-	    <iframe className="DiscoAlbum" 
+	    <iframe className="BodyDiscoAlbum" 
 	    	src={album.bandcamp.src} seamless title={album.name}>
 	    	<a href={album.bandcamp.href}>{album.name}</a>
 	    </iframe>
-	    <div className="DiscoTracklist">
-	      <ol>
+	    <ol className="BodyDiscoTracklist">
 	       {album.tracklist.map(track => {
 		     return <li key={track}>{track}</li>
 	       })}
-	      </ol>
-	    </div>
+	    </ol>
 	    <p>Released {album.date}</p>
   	  </div>
   	});
