@@ -10,10 +10,10 @@ class Body extends Component {
   render() {
     return(	
       <Switch>
-	      <Route exact path='/' component={News}/>
-	      <Route path='/live' component={Live}/>
-	      <Route path='/discography' component={Discography}/>
-	   </Switch>
+	    <Route exact path='/' component={News}/>
+	    <Route path='/live' component={Live}/>
+	    <Route path='/discography' component={Discography}/>
+	  </Switch>
     );	
   }
 
