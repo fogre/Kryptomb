@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Discography from './bodyComponents/Discography.js';
 import Live from './bodyComponents/Live.js';
@@ -9,13 +9,11 @@ class Body extends Component {
 
   render() {
     return(	
-      <main>
-      	<Switch>
-	       <Route exact path='/' component={News}/>
-	       <Route exact path='/live' component={Live}/>
-	       <Route exact path='/discography' component={Discography}/>
-	      </Switch>
-      </main>
+      <Switch>
+	      <Route exact path='/' component={News}/>
+	      <Route path='/live' component={Live}/>
+	      <Route path='/discography' component={Discography}/>
+	   </Switch>
     );	
   }
 
