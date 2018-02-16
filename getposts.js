@@ -1,6 +1,8 @@
-/*A script to fetch posts from facebook Graph API.
-  The page where posts are fetched is defined in FBconf.js file.
-  If the post type is Event, another query is made to get the event cover */
+/*
+A script to fetch posts from facebook Graph API and write them as "pre-rendered" HTML-file.
+The page where posts are fetched is defined in FBconf.js file.
+If the post type is Event, another query is made to get the event cover 
+*/
 
 const axios = require('./node_modules/axios/index.js');
 const conf = require('./FBconf.local.js');
