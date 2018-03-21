@@ -26,6 +26,9 @@ class Discography extends Component {
       <div>	
     	<h1>Discography</h1>
     	{albums}
+      <br/>
+      <a href='https://www.metal-archives.com/bands/Krypts/3540282830' target='_blank' 
+      rel="noopener noreferrer" className="link">Full discography can be found here</a>
       </div>	
     );	
   }

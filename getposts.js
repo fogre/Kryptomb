@@ -26,7 +26,7 @@ function createPostString(createdTime, message, imageUrl, eventUrl, index){
 	  baseString+=` <img src=${imageUrl} alt='post image' className='BodyNewsImage'/>
 ` }
   if( eventUrl ) {
-	  baseString+=` <br><a href=${eventUrl} target='_blank' rel="noopener noreferrer">Link</a>
+	  baseString+=` <br><a href=${eventUrl} target='_blank' rel="noopener noreferrer" className='link'>Link</a>
 ` }
   return baseString + `</div>
 `

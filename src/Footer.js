@@ -6,7 +6,8 @@ class Footer extends Component {
   	return (
   	  <div className="Footer">
   	  	<br/>
-  	    <p>Logo and background art by Timo Ketola. Site by fogre</p>
+  	    <p>Logo and background art by Timo Ketola. Site by fogre.
+  	    <br/>All rights reserved.</p>
   	  </div>
   	);
   }

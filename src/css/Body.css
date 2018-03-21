@@ -60,6 +60,10 @@
   unicode-bidi: bidi-override;
 }
 
+.link {
+  color: #efefef;
+}
+
 .BodyNewsImage {
   width: 100%;
   position: relative; 
