@@ -51,10 +51,11 @@
   padding: 3px;
   position: relative;
   text-align: center;
+  white-space: pre-line;
   width: 100%;
   z-index: 4;
 }
-/* I guess this helps a little to hide the mail... or not. */
+/* I guess this helps a little to hide the mail from bots... or not. */
 .ok {
   direction: rtl; 
   unicode-bidi: bidi-override;
@@ -103,6 +104,11 @@
 @media screen and (min-width: 950px) {
     .Background {
       background-image: url("../images/CoverWebSquare2.jpg");
+    }
+
+    .BodyDiscoAlbum {
+      width: 460px;
+      height: 460px;
     }
 
     .BodyFrame {

@@ -1,5 +1,21 @@
 {
  "albums": [
+   {
+     "name": "Cadaver Circulation",
+     "tracklist": [
+        "Sinking Transient Waters",
+        "The Reek of Loss",
+        "Echoes Emanate Forms",
+        "Mycelium",
+        "Vanishing",
+        "Circling the Between"
+     ],
+     "date": "31.5.2019 by Dark Descent records",
+     "bandcamp": {
+        "src": "https://bandcamp.com/EmbeddedPlayer/album=1557773452/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/",
+        "href": "http://darkdescentrecords.bandcamp.com/album/cadaver-circulation"
+     }    
+    },
     {
      "name": "Remnants of Expansion",
      "tracklist": [

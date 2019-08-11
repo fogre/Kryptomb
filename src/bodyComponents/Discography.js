@@ -8,16 +8,16 @@ class Discography extends Component {
 
   	let albums = disco.albums.map(album => {
   	  return <div key={album.name}>
-	    <h3>{album.name}</h3>
 	    <iframe className="BodyDiscoAlbum" 
 	    	src={album.bandcamp.src} seamless title={album.name}>
 	    	<a href={album.bandcamp.href}>{album.name}</a>
 	    </iframe>
-	    <ol className="BodyDiscoTracklist">
+      <h3>{album.name}</h3>
+	    <p className="BodyDiscoTracklist">
 	       {album.tracklist.map(track => {
 		     return <li key={track}>{track}</li>
 	       })}
-	    </ol>
+	    </p>
 	    <p>Released {album.date}</p>
   	  </div>
   	});
@@ -26,9 +26,6 @@ class Discography extends Component {
       <div>	
     	<h1>Discography</h1>
     	{albums}
-      <br/>
-      <h4><a href='https://www.metal-archives.com/bands/Krypts/3540282830' target='_blank' 
-      rel="noopener noreferrer" className="link">Full discography can be found here</a></h4>
       </div>	
     );	
   }

@@ -1,82 +1,87 @@
 {
  "coming": [
    {
+     "date": "25.10.2019",
+     "event": "CHAOS Ritval",
+     "location": "Winterhur, Switzerland"
+   },
+   {
+     "date": "8-9.11 2019",
+     "event": "Steelchaos festival",
+     "location": "Helsinki, Finland"
+   }
+ ],
+ "past": [
+    {
+     "date": "11.5.2019",
+     "event": "Graveland Fest",
+     "location": "Hoogeveen, The Netherlands"
+    },
+    {
+     "date": "10.5.2019",
+     "event": "Into the Abyss Festival",
+     "location": "Wroclaw, Poland"
+    },
+    {
+     "date": "9.5.2019",
+     "event": "Deathlike Hypnosis w/ Jupiterian",
+     "location": "Leipzig, Germany"
+    },
+    {
+     "date": "8.5.2019",
+     "event": "Deathlike Hypnosis w/ Jupiterian",
+     "location": "Prague, Czechia"
+    },
+    {
+     "date": "7.5.2019",
+     "event": "Deathlike Hypnosis w/ Jupiterian",
+     "location": "Zagreb, Croatia"
+    },
+    {
+     "date": "6.5.2019",
+     "event": "Deathlike Hypnosis w/ Jupiterian",
+     "location": "Milan, Italy"
+    },
+    {
+     "date": "5.5.2019",
+     "event": "Deathlike Hypnosis w/ Jupiterian",
+     "location": "Freiburg, Germany"
+    },
+    {
+     "date": "4.5.2019",
+     "event": "Netherlands Death Fest",
+     "location": "Tilburg, The Netherlands"
+    },
+    {
+     "date": "3.5.2019",
+     "event": "w/ Jupiterian, Encoffination & Father Befouled",
+     "location": "Paris, France"
+    },
+    {
+     "date": "2.5.2019",
+     "event": "w/ Jupiterian, Encoffination & Father Befouled",
+     "location": "London, UK"
+    },
+    {
+     "date": "1.5.2019",
+     "event": "w/ Jupiterian, Encoffination & Father Befouled",
+     "location": "Brussels, Belgium"
+    },
+    {
+     "date": "30.4.2019",
+     "event": "w/ Jupiterian, Encoffination & Father Befouled",
+     "location": "Hamburg, Germany"
+    },
+    {
+     "date": "29-30.3.2019",
+     "event": "Braincrusher festival",
+     "location": "Jahnhalle, Hirschaid"
+    },
+    {
      "date": "15-17.3.2019",
      "event": "Total DEATH over México vol. 2",
      "location": "HDX Circus Bar, Mexico City"
    },
-   {
-     "date": "29-30.3.2019",
-     "event": "Braincrusher festival",
-     "location": "Jahnhalle, Hirschaid"
-   },
-  {
-     "date": "30.4.2019",
-     "event": "w/ Jupiterian, Encoffination & Father Befouled",
-     "location": "Hamburg, Germany"
-   },
-  {
-     "date": "1.5.2019",
-     "event": "w/ Jupiterian, Encoffination & Father Befouled",
-     "location": "Brussels, Belgium"
-   },
-   {
-     "date": "2.5.2019",
-     "event": "w/ Jupiterian, Encoffination & Father Befouled",
-     "location": "London, UK"
-   },
-   {
-     "date": "3.5.2019",
-     "event": "w/ Jupiterian, Encoffination & Father Befouled",
-     "location": "Paris, France"
-   },
-   {
-     "date": "4.5.2019",
-     "event": "Netherlands Death Fest",
-     "location": "Tilburg, The Netherlands"
-   },
-   {
-     "date": "5.5.2019",
-     "event": "Deathlike Hypnosis w/ Jupiterian",
-     "location": "Freiburg, Germany"
-   },
-   {
-     "date": "6.5.2019",
-     "event": "Deathlike Hypnosis w/ Jupiterian",
-     "location": "Milan, Italy"
-   },
-   {
-     "date": "7.5.2019",
-     "event": "Deathlike Hypnosis w/ Jupiterian",
-     "location": "Zagreb, Croatia"
-   },
-   {
-     "date": "8.5.2019",
-     "event": "Deathlike Hypnosis w/ Jupiterian",
-     "location": "Prague, Czechia"
-   },
-   {
-     "date": "9.5.2019",
-     "event": "Deathlike Hypnosis w/ Jupiterian",
-     "location": "Leipzig, Germany"
-   },
-   {
-     "date": "10.5.2019",
-     "event": "Into the Abyss Festival",
-     "location": "Wroclaw, Poland"
-   },
-   {
-     "date": "11.5.2019",
-     "event": "Graveland Fest",
-     "location": "Hoogeveen, The Netherlands"
-   },
-   {
-     "date": "25.10.2019",
-     "event": "CHAOS Ritval",
-     "location": "Winterhur, Switzerland"
-   }
- ],
- "past": [
    {
      "date": "31.12.2018",
      "event": "w/ Witchcraft, Hail Conjurer",
