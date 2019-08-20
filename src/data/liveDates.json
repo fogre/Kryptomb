@@ -6,9 +6,14 @@
      "location": "Winterhur, Switzerland"
    },
    {
-     "date": "8-9.11 2019",
+     "date": "8-9.11.2019",
      "event": "Steelchaos festival",
      "location": "Helsinki, Finland"
+   },
+   {
+     "date": "15.2.2020",
+     "event": "Finnfest",
+     "location": "London, England"
    }
  ],
  "past": [

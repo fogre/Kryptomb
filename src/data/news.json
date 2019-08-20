@@ -1,6 +1,16 @@
 {
 	"posts": [
 		{
+  			"date":"20.08.2019",
+  			"text": "Our debut concert in Switzerland shall be in\nChaos Ritval on 26th of October!",
+ 			"image": "/Chaos.jpg"
+		},
+		{
+  			"date":"01.08.2019",
+  			"text": "Finnish madness over London!\n15-16.2.2020",
+ 			"image": "/Finnfest.jpg"
+		},	
+		{
 			"date": "15.02.2019",
 			"text": "CADAVER CIRCULATION\n\nThe third full-length album featuring six songs of Death and Doom. Continuing and transforming the sounds of the previous albums, the CD/CS/LP will be available from Dark Descent records around May 2019.\n\nCover artwork once again painted by Timo Ketola.",
 			"image": "/Cadver.jpg"
@@ -9,16 +19,6 @@
 			"date": "14.01.2019",
 			"text": "Deathlike Hypnosis\n\nAfter successful first round, we will once more join forces with Jupiterian and embark on a tour over Europe. During the first 5 days we will be accompanied by Father Befouled and Encoffination, after which we will continue for 7 more days with Jupiterian. In May 2019 the concert halls shall rumble under dark hypnotic atmosphere.",
 			"image": "Deathlike2.jpg"
-		},
-		{
-  			"date":"01.01.2019",
-  			"text": "Total DEATH over Mexico, 15 - 17.3.2019!",
- 			"image": "/total%20death.jpg"
-		},	
-		{
-			"date": "05.11.2018",
-			"text": "It's been a few weeks since our first performances in the U.S., which were the last with J. Aho on guitar. Early this year J. decided that he will end our shared path here and fully focus on Gorephilia. No hard feelings, only gratitude and respect to J. for the past years. Myriad hails!!!\n\nAlso huge thanks to CDF and Dark Descent for inviting us to the U.S. We had a killer time. Special thanks to Matt and the guys from Spectral Voice for your hospitality and help!\n\nStarting next year J. Lilja will be our new guitarist.\n\nPhoto by kvlt photography",
-			"image": "/jukka.jpg"	
 		}
 	]
 }

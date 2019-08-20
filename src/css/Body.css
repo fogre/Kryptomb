@@ -55,6 +55,11 @@
   width: 100%;
   z-index: 4;
 }
+
+.BodyFrame p {
+  margin-left: 6px;
+  margin-right: 6px;
+}
 /* I guess this helps a little to hide the mail from bots... or not. */
 .ok {
   direction: rtl; 
@@ -93,7 +98,7 @@
 .BodyDiscoTracklist {
   list-style-type: upper-roman;
   list-style-position: inside;
-  font-size: calc(13px + 0.5vw);
+  font-size: calc(13px + 0.7vw);
 }
 
 .Footer {

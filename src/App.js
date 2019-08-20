@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
-import Background from './Background.js';
-import Body from './Body.js';
-import Footer from './Footer.js';
-import Header from './Header';
-import Navigation from './Navigation';
+import HeaderNavBody from './HeaderNavBody';
 
 import './css/Body.css';
 
@@ -12,15 +8,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Background/>
+        <section className="Background"></section>
         <div className="HeaderNavBodyFrame">
-          <Header/>
-          <Navigation/>
-          <div className="BodyFrame">
-           <Body/>
-           <Footer/>
-           <section className="BodyNoise"/>
-          </div>
+          <HeaderNavBody />
         </div>  
       </div>
     );
