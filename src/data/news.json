@@ -1,6 +1,11 @@
 {
 	"posts": [
 		{
+  			"date":"1.10.2019",
+  			"text": "We will embark on a tour across Brazil in December with Demonical and NervoChaos.\n\nMore details to follow.",
+ 			"image": "/Brazil.jpg"
+		},
+		{
   			"date":"20.08.2019",
   			"text": "Our debut concert in Switzerland shall be in\nChaos Ritval on 26th of October!",
  			"image": "/Chaos.jpg"
@@ -14,11 +19,6 @@
 			"date": "15.02.2019",
 			"text": "CADAVER CIRCULATION\n\nThe third full-length album featuring six songs of Death and Doom. Continuing and transforming the sounds of the previous albums, the CD/CS/LP will be available from Dark Descent records around May 2019.\n\nCover artwork once again painted by Timo Ketola.",
 			"image": "/Cadver.jpg"
-		},
-		{
-			"date": "14.01.2019",
-			"text": "Deathlike Hypnosis\n\nAfter successful first round, we will once more join forces with Jupiterian and embark on a tour over Europe. During the first 5 days we will be accompanied by Father Befouled and Encoffination, after which we will continue for 7 more days with Jupiterian. In May 2019 the concert halls shall rumble under dark hypnotic atmosphere.",
-			"image": "Deathlike2.jpg"
 		}
 	]
 }
