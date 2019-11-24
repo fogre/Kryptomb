@@ -1,16 +1,6 @@
 {
  "coming": [
    {
-     "date": "25.10.2019",
-     "event": "CHAOS Ritval",
-     "location": "Winterhur, Switzerland"
-   },
-   {
-     "date": "8-9.11.2019",
-     "event": "Steelchaos festival",
-     "location": "Helsinki, Finland"
-   },
-   {
      "date": "5.12.2019",
      "event": "/w Demonical, NervoChaos",
      "location": "Manaus, Brazil"
@@ -23,7 +13,7 @@
    {
      "date": "7.12.2019",
      "event": "/w Demonical, NervoChaos",
-     "location": "Brazilia, Brazil"
+     "location": "Brasilia, Brazil"
    },
    {
      "date": "8.12.2019",
@@ -48,7 +38,7 @@
    {
      "date": "14.12.2019",
      "event": "/w Demonical, NervoChaos",
-     "location": "Goiana, Brazil"
+     "location": "Goiania, Brazil"
    },
    {
      "date": "15.2.2020",
@@ -57,6 +47,16 @@
    }
  ],
  "past": [
+    {
+     "date": "25.10.2019",
+     "event": "CHAOS Ritval",
+     "location": "Winterhur, Switzerland"
+    },
+    {
+     "date": "8-9.11.2019",
+     "event": "Steelchaos festival",
+     "location": "Helsinki, Finland"
+    },
     {
      "date": "11.5.2019",
      "event": "Graveland Fest",
