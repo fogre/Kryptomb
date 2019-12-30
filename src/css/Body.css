@@ -6,6 +6,9 @@
   background-image: url("/mobile.jpg");
   background-size: cover;
   z-index: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 
 }
 /* HEADER, NAVIGATION AND BODY */
@@ -24,7 +27,6 @@
 
 /* NAVIGATION */
 .NavigationFrame {
-  background-color: rgba(0,0,0,0.8);
   display: flex;
   flex-direction: row;
   font-family: 'UnifrakturMaguntia', cursive;
@@ -44,8 +46,8 @@
 
 /* BODY */
 .BodyFrame {
+  background-color: rgba(0,0,0,0.5);
   color: white;
-  background-color: rgba(0,0,0,0.8);
   font-family: 'IM Fell English', serif;
   font-size: calc(13px + 1vw);
   height: auto;
@@ -57,11 +59,7 @@
   z-index: 4;
 }
 
-.BodyFrame p {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-/* I guess this helps a little to hide the mail from bots... or not. */
+/* I guess this helps a little to hide the m.ail from bots... or not. */
 .ok {
   direction: rtl; 
   unicode-bidi: bidi-override;
@@ -130,11 +128,11 @@
     }
 
     .BodyFrame {
+      background-color: rgba(0,0,0,0.8);
       font-size: calc(8px + 1vw);
     }
       
     .NavigationFrame {
-      background-color: unset;
       font-size: 4vw;
     }
 

@@ -1,52 +1,57 @@
 {
  "coming": [
    {
-     "date": "5.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Manaus, Brazil"
-   },
-   {
-     "date": "6.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Rio Branco, Brazil"
-   },
-   {
-     "date": "7.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Brasilia, Brazil"
-   },
-   {
-     "date": "8.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Porto Alegre, Brazil"
-   },
-   {
-     "date": "11.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Sao Paolo, Brazil"
-   },
-   {
-     "date": "12.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Palmas, Brazil"
-   },
-   {
-     "date": "13.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Londrina, Brazil"
-   },
-   {
-     "date": "14.12.2019",
-     "event": "/w Demonical, NervoChaos",
-     "location": "Goiania, Brazil"
-   },
-   {
      "date": "15.2.2020",
      "event": "Finnfest",
      "location": "London, England"
+   },
+   {
+     "date": "21-22.8.2020",
+     "event": "Helsinki Death Fest",
+     "location": "Helsinki, Finland"
    }
  ],
  "past": [
+    {
+     "date": "14.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Goiania, Brazil"
+    },
+    {
+     "date": "13.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Londrina, Brazil"
+    },
+    {
+     "date": "12.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Palmas, Brazil"
+    },
+    {
+     "date": "11.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Sao Paolo, Brazil"
+    },
+    {
+     "date": "8.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Porto Alegre, Brazil"
+    },
+    {
+     "date": "7.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Brasilia, Brazil"
+    },
+    {
+     "date": "6.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Rio Branco, Brazil"
+    },
+    {
+     "date": "5.12.2019",
+     "event": "/w Demonical, NervoChaos",
+     "location": "Manaus, Brazil"
+    },
     {
      "date": "25.10.2019",
      "event": "CHAOS Ritval",
