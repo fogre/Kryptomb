@@ -59,6 +59,11 @@
   z-index: 4;
 }
 
+.BodyFrame p {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 /* I guess this helps a little to hide the m.ail from bots... or not. */
 .ok {
   direction: rtl; 
@@ -73,6 +78,7 @@
   width: 100%;
   position: relative; 
   z-index: 20;
+  margin-bottom: 20px;
 }
 
 .BodyNoise {

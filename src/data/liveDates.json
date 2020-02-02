@@ -6,9 +6,59 @@
      "location": "London, England"
    },
    {
+     "date": "10.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Rock Island, IL"
+   },
+   {
+     "date": "11.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Chicago, IL"
+   },
+   {
+     "date": "12.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Indianapolis, IN"
+   },
+      {
+     "date": "13.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Pittsburgh, PA"
+   },
+   {
+     "date": "14.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Baltimore, MD"
+   },
+      {
+     "date": "15.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Philadelphia, PA"
+   },
+   {
+     "date": "16.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Asbury Park, NJ"
+   },
+   {
+     "date": "17.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Boston, MA"
+   },
+         {
+     "date": "18.4.2020",
+     "event": "Cadaveric Trance w/ Spectral Voice",
+     "location": "Brooklyn, NY"
+   },
+   {
      "date": "21-22.8.2020",
      "event": "Helsinki Death Fest",
      "location": "Helsinki, Finland"
+   },
+  {
+     "date": "6.9.2020",
+     "event": "Kill-Town Deathfest",
+     "location": "Copenhagen, Denmark"
    }
  ],
  "past": [

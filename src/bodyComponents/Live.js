@@ -8,7 +8,7 @@ class Live extends Component {
 
   	let coming = liveDates.coming.map((date, index) => {
   	  return <div key={index}>
-	      <p>{date.date} {date.location}: {date.event}</p>
+	      <p>{date.date}<br/>{date.location}: {date.event}</p>
 	    </div>
   	});
 
@@ -21,8 +21,10 @@ class Live extends Component {
     return(
       <div>	
     	  <h1>Live</h1>
-    	  <h2>Coming</h2>
+        <br/>
+    	  <h2>Upcoming</h2>
     	  {coming}
+        <br/>
     	  <h2>Past</h2>
     	  {past}
       </div>	

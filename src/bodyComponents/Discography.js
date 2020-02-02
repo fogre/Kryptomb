@@ -30,6 +30,7 @@ class Discography extends Component {
     return(	
       <div>	
     	 <h1>Discography</h1>
+       <br/>
     	 {albums}
       </div>	
     );	
