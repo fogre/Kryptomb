@@ -1,11 +1,6 @@
 {
  "coming": [
    {
-     "date": "15.2.2020",
-     "event": "Finnfest",
-     "location": "London, England"
-   },
-   {
      "date": "10.4.2020",
      "event": "Cadaveric Trance w/ Spectral Voice",
      "location": "Rock Island, IL"
@@ -45,10 +40,15 @@
      "event": "Cadaveric Trance w/ Spectral Voice",
      "location": "Boston, MA"
    },
-         {
+   {
      "date": "18.4.2020",
      "event": "Cadaveric Trance w/ Spectral Voice",
      "location": "Brooklyn, NY"
+   },
+   {
+     "date": "25.4.2020",
+     "event": "Armageddon Descends Festival",
+     "location": "Vilnius, Lithuania"
    },
    {
      "date": "21-22.8.2020",
@@ -62,6 +62,11 @@
    }
  ],
  "past": [
+     {
+     "date": "15.2.2020",
+     "event": "Finnfest",
+     "location": "London, England"
+    },
     {
      "date": "14.12.2019",
      "event": "/w Demonical, NervoChaos",

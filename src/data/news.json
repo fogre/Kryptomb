@@ -1,5 +1,10 @@
 {
 	"posts": [
+		{
+  			"date":"3.3.2020",
+  			"text": "Armageddon Descends Festival\n Black.Death.Noise - Vilnius, Lithuania",
+ 			"image": "/Krypts-armageddon-descends.jpg"
+		},
 	    {
   			"date":"27.1.2020",
   			"text": "CADAVERIC TRANCE\nDeath, Doom and Gloom over the east coast U.S. with Spectral Voice",
@@ -14,11 +19,6 @@
   			"date":"31.12.2019",
   			"text": "We will take part in Helsinki Death Fest\n21-22.8.2020",
  			"image": "/helsinki.jpg"
-		},
-		{
-  			"date":"01.08.2019",
-  			"text": "Finnish madness over London!\n15-16.2.2020",
- 			"image": "/Finnfest.jpg"
 		}
 	]
 }
