@@ -6,11 +6,16 @@ class News extends Component {
 
   render() {
 
-    let news = newsposts.posts.map(post => {
-      let postImage = (post.hasOwnProperty("image")) ? <img src={post.image} alt='' className='BodyNewsImage'/> : null;
+    const news = newsposts.posts.map(post => {
+      const postImage = (post.hasOwnProperty("image")) ? 
+         <img src={post.image} alt='' className='BodyNewsImage'/> : null;
+      const postURL = (post.hasOwnProperty("url")) ?
+         <a href={post.url} target='_blank' rel="noopener noreferrer"
+              className="NavigationLink">{post.url}</a> : null; 
       return <div key={post.date}>
         <h2>{post.date}</h2>
         <p>{post.text}</p>
+        {postURL}
         {postImage}
       </div>
     });
