@@ -1,21 +1,9 @@
 {
 	"posts": [
 		{
-  		"date":"15.3.2020",
-  		"text": "Unfortunately due to the Covid-19 pandemic, we are forced to cancel the East Coast tour with Spectral Voice.\n\nArmageddon Descends festival is also cancelled.\n\nWe hope to come to the East Coast and Lithuania some other time.",
- 			"image": "/cancelled.jpg"
-		},
-		{
-  		"date":"20.1.2020",
-  		"text": "We are looking forward to return to the Kill-Town Death Fest!",
-  		"url": "https://killtowndeathfest.com/",
- 			"image": "/Krypts-killtown-deathfest.jpg"
-		},
-		{
-  		"date":"31.12.2019",
-  		"text": "We will take part in Helsinki Death Fest.",
-  		"url": "https://www.facebook.com/HelsinkiDeatFest/",
- 			"image": "/helsinki.jpg"
+  		"date":"1.1.2021",
+  		"text": "Kill-town Death Fest\n2-5.9.2021",
+ 		"image": "/killtowndeathfestposter.jpeg"
 		}
 	]
 }
