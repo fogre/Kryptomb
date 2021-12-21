@@ -2,8 +2,9 @@
 .Background {
   width: 100%;
   height: 100%;
+  max-width: 100vw;
   position: fixed;
-  background-image: url("/mobile.jpg");
+  background-image: url("../images/mobile.jpg");
   background-size: cover;
   z-index: 0;
   -webkit-background-size: cover;
