@@ -1,9 +1,19 @@
 {
 	"posts": [
 		{
-  		"date":"1.1.2021",
-  		"text": "Kill-town Death Fest\n2-5.9.2021",
- 		"image": "/killtowndeathfestposter.jpeg"
+  		"date":"21.12.2021",
+  		"text": "Rites of North\n2-5.9.2022",
+ 			"image": "/rites.jpg"
+		},
+		{
+  		"date":"21.12.2021",
+  		"text": "Celebrare Noctem\n30.9.2022",
+ 			"image": "/celebrare.jpg"
+		},
+		{
+  		"date":"1.12.2021",
+  		"text": "Kill-town Death Fest\n1-4.9.2022",
+ 			"image": "/killtowndeathfestposter.jpeg"
 		}
 	]
 }

@@ -1,12 +1,32 @@
 {
  "coming": [
   {
-     "date": "2.9.2021",
+     "date": "22.1.2022",
+     "event": "Rites of North",
+    "location": "Oulu, Finland"
+  },
+  {
+     "date": "1.9.2022",
      "event": "Kill-Town Deathfest",
      "location": "Copenhagen, Denmark"
+   },
+   {
+     "date": "30.9.2022",
+     "event": "Celebrare Noctem",
+    "location": "Wels, Austria"
    }
  ],
  "past": [
+     {
+         "date": "2.10.2021",
+         "event": "Soulcrusher Festival",
+         "location": "Nijmegen, The Netherlands"
+     },
+     {
+         "date": "1.9.2021",
+         "event": "Kill-Town Deathfest",
+         "location": "Copenhagen, Denmark"
+     },
      {
      "date": "15.2.2020",
      "event": "Finnfest",
