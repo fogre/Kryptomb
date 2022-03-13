@@ -1,9 +1,9 @@
 {
  "coming": [
   {
-     "date": "22.1.2022",
-     "event": "Rites of North",
-    "location": "Oulu, Finland"
+    "date": "19.8.2022",
+    "event": "Helsinki Death Fest",
+    "location": "Helsinki, Finland"
   },
   {
      "date": "1.9.2022",
@@ -14,7 +14,12 @@
      "date": "30.9.2022",
      "event": "Celebrare Noctem",
     "location": "Wels, Austria"
-   }
+   },
+   {
+     "date": "27.1.2023",
+     "event": "Rites of North",
+    "location": "Oulu, Finland"
+  }
  ],
  "past": [
      {
